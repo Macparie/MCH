@@ -27,7 +27,7 @@ export default function FeaturesHome02() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-playfair-display text-slate-800">The quick brown fox jumped over the lazy dog</h2>
+            <h2 className="h2 font-playfair-display text-slate-800">Welcome to our Partnership Segment </h2>
           </div>
 
           {/* Section content */}

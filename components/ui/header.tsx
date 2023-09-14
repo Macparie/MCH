@@ -42,9 +42,13 @@ export default function Header({ mode = 'dark' }: {
                 <li>
                   <Link href="/support" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Support</Link>
                 </li>
+                <li>
+                  
+                  <Link href="/gallery" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">view all</Link>
+                </li>
               </Dropdown>
             </ul>
-
+            
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>

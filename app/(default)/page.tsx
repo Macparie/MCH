@@ -18,10 +18,10 @@ export default function Home() {
     <>
     
       <Hero />
-      
+      <Features02 />
       <FeaturesBlocks />
       <Features />
-      <Features02 />
+      
       <Features03 />
       <Target />
       <PricingSection />
