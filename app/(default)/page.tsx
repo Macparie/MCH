@@ -11,21 +11,23 @@ import Features03 from '@/components/features-home-03'
 import Target from '@/components/target'
 import PricingSection from '@/components/pricing'
 import Cta from '@/components/cta'
-
+import ImageGrid from '@/components/ImageGrid'
 
 export default function Home() {
   return (
     <>
     
       <Hero />
-      <Features02 />
-      <FeaturesBlocks />
-      <Features />
-      
       <Features03 />
-      <Target />
+      <ImageGrid />
+      <FeaturesBlocks />
       <PricingSection />
       <Cta />
+      <Features />
+      <Target />
+      <Features02 />
+      
+     
     </>
   )
 }

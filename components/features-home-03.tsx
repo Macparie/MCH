@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import FeaturesImage01 from '@/public/images/features-home-3-01.jpg'
-import FeaturesImage02 from '@/public/images/features-home-3-02.jpg'
-import FeaturesImage03 from '@/public/images/features-home-3-03.jpg'
+import FeaturesImage01 from '@/public/images/inspiration-02.jpg'
+import FeaturesImage02 from '@/public/images/inspiration-04.jpg'
+import FeaturesImage03 from '@/public/images/inspiration-11.jpg'
 
 export default function FeaturesHome03() {
   return (
@@ -15,7 +15,9 @@ export default function FeaturesHome03() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-playfair-display text-slate-100">Simplify operating and manage with transparency</h2>
+            <h2 className="h2 font-playfair-display text-slate-100">Welcome to our Partnership Segment</h2>
+            <p className="text-xl text-slate-768">Partner with Macparie Creative House and embark on a journey of mutual growth, creativity, and success. Let's create exceptional experiences and lasting memories together.Contact us today to explore the exciting possibilities that await when we join forces.
+</p>
           </div>
 
           {/* Section content */}
@@ -35,7 +37,7 @@ export default function FeaturesHome03() {
                 </div>
               </a>
               <h3 className="h4 font-playfair-display mb-2">
-                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Advanced Features</a>
+                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Chabod Stitches</a>
               </h3>
               <p className="text-lg text-slate-500">Lorem ipsum is placeholder text used in the graphic, print, and publishing for previewing layouts.</p>
             </article>
@@ -54,7 +56,7 @@ export default function FeaturesHome03() {
                 </div>
               </a>
               <h3 className="h4 font-playfair-display mb-2">
-                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Advanced Features</a>
+                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Bluehouse Tecnologies</a>
               </h3>
               <p className="text-lg text-slate-500">Lorem ipsum is placeholder text used in the graphic, print, and publishing for previewing layouts.</p>
             </article>
@@ -73,7 +75,7 @@ export default function FeaturesHome03() {
                 </div>
               </a>
               <h3 className="h4 font-playfair-display mb-2">
-                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Advanced Features</a>
+                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Silk aesthetics</a>
               </h3>
               <p className="text-lg text-slate-500">Lorem ipsum is placeholder text used in the graphic, print, and publishing for previewing layouts.</p>
             </article>

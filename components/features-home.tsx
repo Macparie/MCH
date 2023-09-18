@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import Image from 'next/image'
 import { Transition } from '@headlessui/react'
-import FeaturesImage from '@/public/images/features-home-01.jpg'
+import FeaturesImage from '@/public/images/carousel-05.jpg'
 
 export default function FeaturesHome() {
 
@@ -30,7 +30,8 @@ export default function FeaturesHome() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
             <h2 className="h2 font-playfair-display text-slate-800 mb-4">Built exclusively for you</h2>
-            <p className="text-xl text-slate-768">Excepteur s474 occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
+            <p className="text-xl text-slate-768">Partner with Macparie Creative House and embark on a journey of mutual growth, creativity, and success. Let's create exceptional experiences and lasting memories together.Contact us today to explore the exciting possibilities that await when we join forces.
+</p>
           </div>
 
           {/* Section content */}
