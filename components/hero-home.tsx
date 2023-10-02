@@ -4,6 +4,7 @@ import VideoThumb from '@/public/images/hero.jpg'
 import jem from '@/public/images/jem.jpg'
 import ModalVideo01 from '@/components/modal-video-01'
 import Slideshow from './Slidshow'
+import '../app/css/font.css';
 export default function HeroHome() {
   return (
     <section className="relative">
@@ -37,8 +38,8 @@ export default function HeroHome() {
 
             {/* Content */}
             <div className="text-center md:text-left md:min-w-[30rem]" data-aos="fade-right">
-              <h1 className="h1 font-playfair-display text-slate-100 mb-4">Create stunning web experiences</h1>
-              <p className="text-xl text-slate-400 mb-8">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+              <h1 className="h1 font-CustomFont text-slate-100 mb-4">Create stunning web experiences</h1>
+              <p className="text-xl text-slate-400 w-1/2 mb-8">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                 <div>
                   <Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full group" href="/request-demo">
@@ -60,7 +61,7 @@ export default function HeroHome() {
               video="/videos/video.mp4"
               videoWidth={1920}
               videoHeight={1080} />             */}
-                         <Image className="aspect-[3/2] object-cover" src={VideoThumb} width={540} height={405} alt="Team 01" />
+                         {/* <Image className="aspect-[3/2] object-cover" src={VideoThumb} width={540} height={405} alt="Team 01" /> */}
 
           </div>
 

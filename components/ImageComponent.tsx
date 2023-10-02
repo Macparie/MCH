@@ -21,7 +21,7 @@ const ImageComponent: React.FC<ImageProps> = ({ imageUrl, altText, hoverText, li
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <Image src={imageUrl} alt={altText} className="max-w-full w-full h-auto object-fit" width={200} height={200} />
+      <Image src={imageUrl} alt={altText} className="max-w-full w-full h-auto object-contain" width={200} height={200} />
       {isHovered ? (
         <div className="absolute bottom-0 left-0 right-0  text-white h-[400px] text-center flex items-center">
           <p className='mx-auto'>{hoverText}</p>

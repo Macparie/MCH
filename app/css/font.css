@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('/fonts/Lihataja.ttf') format('truetype');
+    /* You might need to adjust the path based on where you placed the font */
+  }
+  
