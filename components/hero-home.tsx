@@ -10,7 +10,7 @@ export default function HeroHome() {
     <section className="relative">
 
       {/* Dark background */}
-      <div className="absolute inset-0 bg-slate-900 pointer-events-none opacity-95 -z-10 [clip-path:polygon(0_0,_5760px_0,_5760px_calc(100%_-_352px),_0_100%)]" aria-hidden="true">
+      <div className="absolute inset-0  pointer-events-none opacity-95 -z-10 [clip-path:polygon(0_0,_5760px_0,_5760px_calc(100%_-_352px),_0_100%)]" aria-hidden="true">
       {/* <Image
         className="object-cover object-center w-full h-full"
         src={jem}
@@ -19,7 +19,7 @@ export default function HeroHome() {
       /> */}
 
 
-<Slideshow />
+<Slideshow  />
       {/* <div className="relative">
       <Slideshow />
       <div className="absolute inset-0 flex items-center justify-center bg-opacity-75 bg-white">
@@ -37,12 +37,12 @@ export default function HeroHome() {
           <div className="max-w-xl mx-auto md:max-w-none md:flex md:items-center md:space-x-8 lg:space-x-16 xl:space-x-20 space-y-16 md:space-y-0">
 
             {/* Content */}
-            <div className="text-center md:text-left md:min-w-[30rem]" data-aos="fade-right">
-              <h1 className="h1 font-CustomFont text-slate-100 mb-4">Create stunning web experiences</h1>
-              <p className="text-xl text-slate-400 w-1/2 mb-8">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+            <div className="text-center md:text-left  md:min-w-[30rem]" data-aos="fade-right">
+              <h1 className="h1 font-PetitFormalScript-Regular  text-slate-200 mb-4 f">Create stunning web experiences</h1>
+              <p className="text-5xl text-slate-400 w-1/2 mb-8 font-FontleroyBrownNF" >Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                 <div>
-                  <Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full group" href="/request-demo">
+                  <Link className=" btn  text-white bg-blue-600 hover:bg-blue-700 w-full group" href="/request-demo">
                     Book a Session <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                   </Link>
                 </div>

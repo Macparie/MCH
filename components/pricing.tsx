@@ -12,7 +12,7 @@ export default function Pricing() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h2 className="h2 font-playfair-display text-slate-100">Find the right plan for your business</h2>
+            <h2 className="h2 font-playfair-display text-slate-100">Want to delve into our various Plans</h2>
           </div>
 
           <PricingTables />

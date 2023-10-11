@@ -31,8 +31,8 @@ export default function ImageSwapper() {
     }, [currentIndex]); // Added currentIndex as a dependency
 
     return (
-        <div>
-            <Image alt='my imag'className="object-contain" src={images[currentIndex]} />
+        <div className=' bg-slate-900 '>
+            <Image  alt='my imag'className="object-fit w-500 h-500  " src={images[currentIndex]} />
         </div>
     )
 }

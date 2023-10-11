@@ -24,9 +24,9 @@ export default function Dropdown({
       onBlur={() => setDropdownOpen(false)}
     >
       <a
-        className="font-medium text-slate-800 dark:text-slate-400 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
+        className="font-FontleroyBrownNF text-2xl text-slate-800 dark:text-slate-400 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
         href="#0"
-        aria-expanded={dropdownOpen}
+        aria-expanded={dropdownOpen} 
         onClick={(e) => e.preventDefault()}
       >
         {title}

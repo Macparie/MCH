@@ -17,7 +17,7 @@ const ImageComponent: React.FC<ImageProps> = ({ imageUrl, altText, hoverText, li
   return (
     <Link
       href={linkTo}
-      className={`relative overflow-hidden min-w-max h-[400px]`}
+      className={`relative overflow-hidden min-w-max  text-5xl font-FontleroyBrownNF h-[400px]`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

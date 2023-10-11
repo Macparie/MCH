@@ -16,5 +16,46 @@
     }
 }
 
+@font-face {
+    font-family: "Lihataja";
+    src: url("/fonts/Lihataja.ttf");
+  }
+  @font-face {
+    font-family: "Lihataja";
+    src: url("/fonts/Aerotis.otf");
+  }
+  @font-face {
+    font-family: "FontleroyBrownNF";
+    src: url("/fonts/FontleroyBrownNF.otf");
+  }
+  @font-face {
+    font-family: "PetitFormalScript-Regular";
+    src: url("/fonts/PetitFormalScript-Regular.ttf");
+  }
+  @font-face {
+    font-family: "ParkLaneNF";
+    src: url("/fonts/ParkLaneNF.otf");
+  }
 
 
+
+.font-Lihataja {
+    font-family:  "Lihataja";
+}
+
+.font-Aerotis {
+    font-family:  "Aerotis";
+}
+
+.font-FontleroyBrownNF {
+    font-family:  "FontleroyBrownNF";
+}
+
+
+.font-PetitFormalScript-Regular {
+    font-family:  "PetitFormalScript-Regular";
+}
+
+.font-ParkLaneNF {
+    font-family:  "ParkLaneNF";
+}

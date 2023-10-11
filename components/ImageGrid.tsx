@@ -23,7 +23,7 @@ const ImageGrid: React.FC = () => {
 
       <ImageComponent
         altText="Image 2"
-        hoverText="Text for Image 2"
+        hoverText="Text for Image 2thjgfh"
         linkTo="/gallery"
         imageUrl='/images/inspiration-09.jpg'
       />

@@ -33,7 +33,7 @@ export default function PricingTables() {
               <span className="h2 leading-7 font-playfair-display text-slate-800">{annual ? '49' : '55'}</span>
               <span className="font-medium text-slate-400">/mo</span>
             </div>
-            <div className="text-slate-500">Better insights for growing businesses that want more customers.</div>
+            <div className="text-slate-500">Single Photo Session.</div>
           </div>
           <div className="font-medium mb-3">Features include:</div>
           <ul className="text-slate-500 space-y-3 grow mb-6">
@@ -41,13 +41,13 @@ export default function PricingTables() {
               <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
               </svg>
-              <span>50 Placeholder text commonly</span>
+              <span>Book an appointment either online or offline</span>
             </li>
             <li className="flex items-center">
               <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
               </svg>
-              <span>Consectetur adipiscing elit</span>
+              <span>Set date and location</span>
             </li>
             <li className="flex items-center">
               <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
